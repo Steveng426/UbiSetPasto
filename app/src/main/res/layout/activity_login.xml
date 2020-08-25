@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/fondo"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:contentDescription="@string/fondo" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/letras" />
+
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="374dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/Correo"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:paddingEnd="10dp"
+        android:autofillHints=""
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/TxtPassword"
+        android:layout_width="374dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/Contraseña"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingEnd="10dp"
+        android:autofillHints=""
+        android:paddingStart="20dp" />
+
+    <TextView
+        android:id="@+id/TxtOlvidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olvido su contraseña?"
+        android:textColor="#ffff"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/BtnInicio"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btnsesion"
+        android:text="@string/iniciar_sesion"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BtnRegistrar"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btnregistro"
+        android:text="@string/registrarse"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+
+</RelativeLayout>

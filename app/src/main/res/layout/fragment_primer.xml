@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrimerFragment"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:src="@drawable/letras"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imagen" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/bienvenido"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcionSplash"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:src="@drawable/cesmag_color" />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/descarga"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/IdSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="bottom|end"
+        android:text="@string/siguiente"
+        android:textColor="#FF7C00"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+</LinearLayout>

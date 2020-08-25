@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">UbiSetPasto</string>
+    <string name="mapa">MAPA</string>
+    <string name="rutas">RUTAS</string>
+    <string name="acerca">ACERCA DE</string>
+    <string name="conductor">CONDUCTOR</string>
+    <string name="configutacion">CONFIGURACIÓN</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ruta_complementaria_1">Ruta complementaria 1</string>
+    <string name="briseño">Esta ruta va de Briseño a Briseño</string>
+    <string name="descripcion">Descripcion:</string>
+    <string name="c1">C1</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Correo">Ingrese su correo electronico</string>
+    <string name="Contraseña">  Ingrese su contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="logo">logo</string>
+    <string name="fondo">fondo</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagen">Imagen</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="descripcionSplash">UbiSetPasto es un proyecto de la Universidad CESMAG con ayuda de AVANTE dirigida a la ciudadania
+        de San Juan De Pastob que padece  de baja vision</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="titulo3">Ahora si viene lo bueno</string>
+    <string name="descripcion3">Vamos a probar el funcionamiento de la app</string>
+    <string name="titulo2">Quieres llegar a tu destino?</string>
+    <string name="descripcion2">Con la ayuda de UbiSetPasto puedes llegar a cualquier parte de la ciudad en tu autobus de manera mas rapida, facil y segura,</string>
+    <string name="title_activity_mapa_ruta">Map</string>
+
+</resources>

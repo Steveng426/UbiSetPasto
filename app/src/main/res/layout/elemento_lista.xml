@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="2dp"
+       android:layout_marginLeft="2dp"
+       android:layout_marginStart="2dp">
+
+       <ImageView
+           android:id="@+id/Idimagen"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:srcCompat="@drawable/c1"
+           android:contentDescription="@string/c1" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+           <TextView
+               android:id="@+id/IdTextRuta"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="Nombre"
+               android:textColor="#000000"
+               />
+
+           <TextView
+               android:id="@+id/IdTextDescripcion"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="@string/descripcion"
+               android:textColor="#000000"
+               />
+
+           <TextView
+               android:id="@+id/IdTextInfo"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+
+               android:text="infoo"
+               android:textColor="#000000"
+               />
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:text=""
+        android:layout_marginTop="2dp"/>
+
+
+</LinearLayout>
