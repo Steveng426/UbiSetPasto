@@ -10,34 +10,30 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="313dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:src="@drawable/letras"
         android:layout_marginTop="30dp"
-        android:contentDescription="@string/imagen"
-        android:src="@drawable/prueba" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="@string/titulo3"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:layout_gravity="center"
+        android:contentDescription="@string/imagen" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/descripcion3"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
+        android:layout_height="188dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:text="@string/descripcionSplash"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:src="@drawable/cesmag_color" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,27 +43,27 @@
         <TextView
             android:id="@+id/IdAtras"
             android:layout_width="wrap_content"
-            android:gravity="bottom|start"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="bottom|start"
+            android:layout_weight="1"
+            android:gravity="bottom|start"
             android:text="Atras"
-            android:textSize="30sp"
-            android:textColor="#FF7C00" />
+            android:textColor="#FF7C00"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/IdFin"
             android:layout_width="wrap_content"
-            android:layout_gravity="bottom|end"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
             android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
             android:gravity="bottom|end"
             android:text="@string/iniciar"
-            android:textStyle="bold"
             android:textColor="#FF7C00"
             android:textSize="30sp"
-            android:clickable="true"
-            android:focusable="true"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 

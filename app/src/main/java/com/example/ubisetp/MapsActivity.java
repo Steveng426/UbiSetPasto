@@ -55,6 +55,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
+            //buscar direccion
             public boolean onQueryTextSubmit(String query) {
                 String location = searchView.getQuery().toString();
                 List <Address> addressList = null;
@@ -123,7 +124,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             MarkerOptions options = new MarkerOptions().position(latLng).title("Ubicacion Actual");
                             googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,16));
                             googleMap.addMarker(options);
-
                         }
                     });
                 }
@@ -132,6 +132,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     @Override
+    //zoom
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         mMap.getUiSettings().setZoomControlsEnabled(true);
@@ -139,14 +140,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        //permisos
         if (requestCode == 44){
             if (grantResults.length> 0 && grantResults [0] == PackageManager.PERMISSION_GRANTED){
                 getCurrentLocation();
             }
         }
     }
-
-
-
-
 }
