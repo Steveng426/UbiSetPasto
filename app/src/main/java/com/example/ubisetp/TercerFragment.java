@@ -1,6 +1,7 @@
 package com.example.ubisetp;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -16,7 +17,6 @@ public class TercerFragment extends Fragment {
     TextView atras;
     TextView done;
     ViewPager viewPager;
-
     public TercerFragment() {
         // Required empty public constructor
     }
@@ -27,6 +27,7 @@ public class TercerFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_tercer, container, false);
+
         View view1 = inflater.inflate(R.layout.activity_main,container,false);
 
         viewPager = getActivity().findViewById(R.id.viewPager);

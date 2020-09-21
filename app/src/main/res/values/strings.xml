@@ -45,9 +45,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="imagen">Imagen</string>
-    <string name="bienvenido">!Hola!</string>
     <string name="descripcionSplash">UbiSetPasto es un proyecto de la Universidad CESMAG con ayuda de AVANTE dirigida a la ciudadania
-        de San Juan De Pastob que padece  de baja vision</string>
+        de San Juan De Pasto que padece  de baja vision</string>
     <string name="siguiente">Siguiente</string>
     <string name="iniciar">Iniciar</string>
     <string name="titulo3">Ahora si viene lo bueno</string>

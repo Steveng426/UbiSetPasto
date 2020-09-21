@@ -1,5 +1,6 @@
 package com.example.ubisetp;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -14,6 +15,7 @@ public class SegundoFragment extends Fragment {
     TextView next;
     TextView back;
     ViewPager viewPager;
+    MediaPlayer mediaPlayer;
     public SegundoFragment() {
         // Required empty public constructor
     }
@@ -22,15 +24,20 @@ public class SegundoFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        mediaPlayer = MediaPlayer.create(this.getActivity(),R.raw.ubisetpasto);
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_segundo, container, false);
 
         viewPager = getActivity().findViewById(R.id.viewPager);
         next=view.findViewById(R.id.IdSiguiente);
+
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 viewPager.setCurrentItem(2);
+                mediaPlayer.start();
+
             }
         });
 
